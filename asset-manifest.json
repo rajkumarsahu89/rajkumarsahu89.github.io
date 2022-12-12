@@ -1,17 +1,25 @@
 {
   "files": {
-    "main.css": "/static/css/main.03fd30d5.css",
-    "main.js": "/static/js/main.ce3935af.js",
+    "main.css": "/static/css/main.65b273b0.css",
+    "main.js": "/static/js/main.0aed896c.js",
     "static/js/787.1f11dfe9.chunk.js": "/static/js/787.1f11dfe9.chunk.js",
-    "static/media/pic.jpeg": "/static/media/pic.e1ddf03ce006398fb837.jpeg",
+    "static/media/Tripvilla.png": "/static/media/Tripvilla.a5cd6a0635e485c741bc.png",
+    "static/media/Revv.png": "/static/media/Revv.51106f1909fd5062009b.png",
+    "static/media/chakraui.png": "/static/media/chakraui.15320604467d004df871.png",
+    "static/media/Raj.jpg": "/static/media/Raj.131e1fe01ecb1b25ea6e.jpg",
+    "static/media/react.svg": "/static/media/react.c3a0b34aae466451a91157424eec1ee3.svg",
     "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/vitejs.svg": "/static/media/vitejs.11f3d8993112a5a70f1d29894e957151.svg",
+    "static/media/next.svg": "/static/media/next.1b2b52c044b9dcea988e68b966864c5a.svg",
     "index.html": "/index.html",
-    "main.03fd30d5.css.map": "/static/css/main.03fd30d5.css.map",
-    "main.ce3935af.js.map": "/static/js/main.ce3935af.js.map",
+    "static/media/materialui.svg": "/static/media/materialui.d7f5c38f45cba4d9717da569bf6996ee.svg",
+    "static/media/npm.svg": "/static/media/npm.87689eab730642c86d2b01f3ef4a19e3.svg",
+    "main.65b273b0.css.map": "/static/css/main.65b273b0.css.map",
+    "main.0aed896c.js.map": "/static/js/main.0aed896c.js.map",
     "787.1f11dfe9.chunk.js.map": "/static/js/787.1f11dfe9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.03fd30d5.css",
-    "static/js/main.ce3935af.js"
+    "static/css/main.65b273b0.css",
+    "static/js/main.0aed896c.js"
   ]
 }
