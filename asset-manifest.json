@@ -1,10 +1,11 @@
 {
   "files": {
-    "main.css": "/static/css/main.c3675016.css",
-    "main.js": "/static/js/main.356fe038.js",
+    "main.css": "/static/css/main.6c2db77d.css",
+    "main.js": "/static/js/main.eaf1439a.js",
     "static/js/787.1f11dfe9.chunk.js": "/static/js/787.1f11dfe9.chunk.js",
     "static/media/Tripvilla.png": "/static/media/Tripvilla.a5cd6a0635e485c741bc.png",
     "static/media/Revv.png": "/static/media/Revv.51106f1909fd5062009b.png",
+    "static/media/Raj_Kumar_Sahu.pdf": "/static/media/Raj_Kumar_Sahu.e74b61371856e58c454c.pdf",
     "static/media/chakraui.png": "/static/media/chakraui.15320604467d004df871.png",
     "static/media/Raj.jpg": "/static/media/Raj.131e1fe01ecb1b25ea6e.jpg",
     "static/media/react.svg": "/static/media/react.c3a0b34aae466451a91157424eec1ee3.svg",
@@ -14,12 +15,12 @@
     "index.html": "/index.html",
     "static/media/materialui.svg": "/static/media/materialui.d7f5c38f45cba4d9717da569bf6996ee.svg",
     "static/media/npm.svg": "/static/media/npm.87689eab730642c86d2b01f3ef4a19e3.svg",
-    "main.c3675016.css.map": "/static/css/main.c3675016.css.map",
-    "main.356fe038.js.map": "/static/js/main.356fe038.js.map",
+    "main.6c2db77d.css.map": "/static/css/main.6c2db77d.css.map",
+    "main.eaf1439a.js.map": "/static/js/main.eaf1439a.js.map",
     "787.1f11dfe9.chunk.js.map": "/static/js/787.1f11dfe9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c3675016.css",
-    "static/js/main.356fe038.js"
+    "static/css/main.6c2db77d.css",
+    "static/js/main.eaf1439a.js"
   ]
 }
