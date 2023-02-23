@@ -1,38 +1,63 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.App{
+  background: #1B1B1B;
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+:root{
+  --primary:#ffa31a ;
+}
+.image-container1{   
+  background-image: url("../src/Components/imges/man2.jpg");
+  background-size: cover;
+}
+.image-container1 > img{
+  width:100%;
+  display:block;
+  transition: opacity 1s ease;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.image-container1:hover img{
+  opacity: 0;
 }
+
+.image-container2{   
+  background-image: url("../src/Components/imges/revv2.png");
+  background-size: cover;
+}
+.image-container2 > img{
+  width:100%;
+  display:block;
+  transition: opacity 1s ease;
+}
+
+.image-container2:hover img{
+  opacity: 0;
+}
+
+.image-container3{   
+  background-image: url("../src/Components/imges/shine2.png");
+  background-size: cover;
+}
+.image-container3 > img{
+  width:100%;
+  display:block;
+  transition: opacity 1s ease;
+}
+
+.image-container3:hover img{
+  opacity: 0;
+}
+
+.image-container4{   
+  background-image: url("../src/Components/imges/aod2.png");
+  background-size: cover;
+}
+.image-container4 > img{
+  width:100%;
+  display:block;
+  transition: opacity 1s ease;
+}
+
+.image-container4:hover img{
+  opacity: 0;
+}
+

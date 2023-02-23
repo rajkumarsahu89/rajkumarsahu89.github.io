@@ -1,0 +1,120 @@
+.contactMe {
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    padding-top: 50px;
+}
+
+.contactMe>div {
+    padding: 10%;
+    padding-top: 8%;
+    padding-bottom: 5%;
+
+}
+
+.contactMe>div:first-child {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 40%;
+}
+
+.contactMe>div div {
+    display: flex;
+    /* justify-content: center; */
+    gap: 10px;
+    align-items: center;
+}
+
+.contactMe>div:first-child h1 {
+    font-size: 50px;
+    font-weight: bold;
+    color: #ffa31a;
+}
+
+.contactMe span {
+    font-size: 18px;
+}
+
+.contactMe>div:last-child {
+    width: 65%;
+    padding-left: 5%;
+}
+
+.contactMe form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    /* padding-left: 5%; */
+    /* border: 1px solid red; */
+}
+
+.contactMe>div:last-child input,
+textarea {
+    border-radius: 6px;
+    padding: 15px;
+    margin-bottom: 5px;
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    /* background: #808080; */
+
+}
+.contactMe>div:last-child input{
+    height: 50px;
+}
+.contactMe textarea {
+    padding: 20px;
+    font-size: 18px;
+    height: 300px;
+    color: #ffa31a;
+
+}
+
+.contactMe button {
+    background: #ffa31a;
+    color: white;
+    width: 100px;
+    /* margin: auto; */
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.contactMe button:hover {
+    background: #ec9109;
+}
+
+.social>a:last-child {
+    font-size: 50px;
+}
+
+.social {
+    display: flex;
+    align-items: center;
+}
+
+
+
+@media (min-width: 20px) and (max-width: 800px) {
+    .contactMe {
+        flex-direction: column;
+    }
+
+    .contactMe>div:first-child {
+        width: 100%;
+    }
+
+    .contactMe>div:last-child {
+        width: 100%;
+        padding-left: 10%;
+    }
+    .contactMe textarea {
+        padding: 20px;
+        font-size: 18px;
+        height: 200px;
+        color: #ffa31a;
+    
+    }
+}

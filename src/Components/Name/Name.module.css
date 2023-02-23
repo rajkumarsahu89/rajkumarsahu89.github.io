@@ -1,0 +1,109 @@
+.name {
+    text-align: center;
+    border: 1px solid #1B1B1B;
+    /* border: 1px solid white; */
+    padding-bottom: 90px;
+    /* margin-top: 90px; */
+    /* height: 100vmax; */
+}
+
+.name>p:first-child {
+    font-size: 55px;
+    font-weight: bold;
+    font-family: europa, sans-serif;
+    margin-top: 100px;
+}
+
+.name>p:first-child>span {
+    color: #ffa31a;
+}
+
+.name>p:nth-child(2) {
+    font-size: 25px;
+    font-weight: bold;
+    font-family: europa, sans-serif;
+    margin-top: 15px;
+    /* color: #ffe100; */
+}
+
+.design {
+    width: 800px;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.avatar {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    /* border: 3px solid #9045f3; */
+    /* box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;   */
+    overflow: hidden;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+
+.resumeButton {
+    background: #000;
+    background: #ffa31a;
+    color: white;
+    border-radius: 10px;
+    padding: 5px 10px 5px 10px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: europa, sans-serif;
+    /* margin-top: 20px; */
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.resumeButton:hover {
+    /* background: var(--primary); */
+    background: #f39914;
+
+}
+
+.resume>i:hover {
+    color: #ffa31a;
+}
+
+.resume {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid red; */
+}
+
+@media (min-width: 20px) and (max-width: 800px) {
+    .name>p:first-child {
+        display: flex;
+        flex-direction: column;
+    }
+    .avatar {
+        width: 250px;
+        height: 250px;
+        
+    }
+    
+}
+
+@media (min-width: 20px) and (max-width: 800px) {
+    .name>p:first-child {
+        display: flex;
+        flex-direction: column;
+        font-size: 40px;
+    }
+
+    .name>p:nth-child(2) {
+        font-size: 20px;
+        font-weight: bold;
+        font-family: europa, sans-serif;
+        margin-top: 5px;
+        /* color: #ffe100; */
+    }
+}

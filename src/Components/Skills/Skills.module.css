@@ -1,0 +1,114 @@
+.skills {
+    padding-top: 90px;
+    text-align: center;
+}
+
+.skills>p {
+    font-size: 55px;
+}
+
+.skills span {
+    color: #ffa31a;
+    font-weight: bold;
+}
+
+
+.tools {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 100px;
+    gap: 50px;
+}
+
+.tools>div {
+    border: 1px solid rgb(185, 185, 185);
+    border-radius: 20px;
+    width: 500px;
+    box-shadow: rgba(140, 139, 139, 0.3) 0px 19px 38px, rgba(90, 89, 89, 0.22) 0px 15px 12px;
+
+}
+
+.tools>div>p {
+    font-size: 25px;
+    margin: 15px;
+}
+
+.grid {
+    padding: 40px;
+}
+
+.grid p {
+    font-size: 20px;
+}
+
+@media (min-width: 500px) and (max-width: 980px) {
+    .tools {
+        /* display: flex; */
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+}
+
+@media (min-width: 20px) and (max-width: 500px) {
+    .tools {
+        /* display: flex; */
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .grid {
+        padding: 20px
+    }
+
+    .grid p {
+        font-size: 16px;
+    }
+
+    .tools>div>p {
+        font-size: 20px;
+        margin: 20px;
+    }
+
+    .tools>div {
+        /* border: 1px solid rgb(185, 185, 185);
+        border-radius: 10px; */
+        width: 300px;
+    }
+
+    .skills>p {
+        font-size: 45px;
+    }
+
+}
+
+
+/* .skills>div{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    justify-content: center;
+    padding: 5%;
+    gap: 10%;
+}
+.skills>div>div{
+    border: 1px solid rgb(185, 185, 185);
+    width: 150px;
+    height: 150px;
+    margin: auto;
+    border-radius: 10px;
+    display: flex;
+    gap: 10%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.skills img{
+    width: 50%;
+}
+.skills>div p{
+    font-size:20px ;
+} */

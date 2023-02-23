@@ -1,0 +1,194 @@
+.aboutme {
+    background: #292929;
+    text-align: center;
+    /* color:  white; */
+    /* padding-top: 100px; */
+}
+
+.header{
+    background: #292929;
+    padding-top: 100px;
+    text-align: center;
+    font-size: 55px;
+}
+.aboutme>p {
+    width: 50%;
+    margin: auto;
+    color: white;
+    background: #292929;
+
+
+}
+
+.aboutme>p:first-child {
+    font-size: 35px;
+    font-weight: bold;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    width: 90%;
+}
+
+.aboutme>p:nth-child(2) {
+    font-size: 20px;
+    margin-bottom: -150px;
+}
+
+.learning {
+    background: #ffa31a;
+    width: 60%;
+    margin: auto;
+    border: 1px solid rgb(21, 21, 21);
+    border-radius: 20px;
+    position: relative;
+    top: 200px;
+    margin-bottom: 200px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.learning h1 {
+    font-size: 40px;
+    /* font-weight: bold; */
+    margin-top: 10px;
+    background: transparent;
+    color: #292929;
+    font-weight: bold;
+}
+
+.learning>div {
+    margin: 5%;
+    background: transparent;
+
+}
+
+.learning>div>div {
+    display: flex;
+    margin-top: 20px;
+
+}
+
+/* .learning>div div{
+    background: transparent;
+} */
+
+.learning p {
+    display: flex;
+    background: transparent;
+
+}
+
+.learning img {
+    width: 60px;
+    background: transparent;
+
+}
+
+.learning p:first-child {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+    font-size: 18px;
+
+}
+
+.learning p:last-child {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.learning span {
+    color: #292929;
+    font-size: 25px;
+    font-weight: bold;
+    margin-left: 10px;
+    margin-right: 10px;
+    background: transparent;
+}
+
+.text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (min-width: 20px) and (max-width: 800px) {
+    .aboutme>p:first-child {
+        width: 90%;
+        font-size: 30px;
+        font-weight: bold;
+        padding-top: 20px;
+        padding-bottom: 30px;
+    }
+
+    .aboutme>p:nth-child(2) {
+        font-size: 16px;
+        width: 80%;
+    }
+
+    .learning {
+        width: 70%;
+    }
+
+    .text {
+        display: flex;
+        flex-direction: column;
+        margin-left: 20px;
+        align-items: flex-start;
+    }
+
+    .text p {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .text span {
+        margin-left: 0px;
+    }
+
+    .learning h1 {
+        font-size: 40px;
+        margin: 20px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .header{
+        padding-top: 70px;
+    }
+
+}
+
+@media (min-width: 20px) and (max-width: 450px) {
+    .aboutme>p:first-child {
+        width: 100%;
+        font-size: 25px;
+        font-weight: bold;
+        /* padding-top: 30px; */
+        padding-bottom: 20px;
+    }
+
+    .learning img {
+        width: 50px;
+    }
+
+    .aboutme>p:nth-child(2) {
+        font-size: 14px;
+        width: 90%;
+        /* padding-bottom: 20px; */
+    }
+
+    .learning {
+        width: 80%;
+    }
+
+    .text>p:first-child {
+        font-size: 16px;
+    }
+
+    .text span {
+        font-size: 20px;
+    }
+
+    .text>p:last-child {
+        font-size: 16px;
+    }
+
+}
