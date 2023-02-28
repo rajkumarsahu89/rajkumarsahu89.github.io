@@ -7,7 +7,7 @@ import {
 } from "@chakra-ui/react";
 import React from "react";
 import style from "./Navbar.module.css";
-
+import resume from "../imges/Raj_Kumar_Sahu.pdf"
 
 export default function Hamburger({ isOpen, setOpen }) {
   const btnRef = React.useRef();
@@ -15,6 +15,9 @@ export default function Hamburger({ isOpen, setOpen }) {
   function onClose() {
     setOpen(false);
   }
+  const Handleonclick=()=>{
+    window.open(`${resume}`);
+   }
 
   return (
     <>
@@ -54,6 +57,12 @@ export default function Hamburger({ isOpen, setOpen }) {
               <a href="#contactMe">
                 <div onClick={() => onClose()}>
                   <p> Contact</p>
+                </div>
+              </a>
+              <a href={resume} download="Raj_Kumar_Sahu_Resume"  onClick={Handleonclick} >
+                <div onClick={() => onClose()}>
+                  <p> Resume</p>
+
                 </div>
               </a>
             </div>
