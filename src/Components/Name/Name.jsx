@@ -13,7 +13,7 @@ function Name() {
    }
 
   return (
-    <div className={style.name} id="name">
+    <div className={style.name} id="name" style={{width:"100%", overflowX:"hidden"}}>
       <p>
         Hi 👋 I am <span>Raj Kumar Sahu</span>{" "}
       </p>
