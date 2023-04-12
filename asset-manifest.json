@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/static/css/main.9c5dc39a.css",
-    "main.js": "/static/js/main.10c508b4.js",
-    "static/media/shine1.png": "/static/media/shine1.eaa126d6b80205407a41.png",
+    "main.css": "/static/css/main.cfda5325.css",
+    "main.js": "/static/js/main.2104434e.js",
     "static/media/aod1.png": "/static/media/aod1.58140ba5d2d636aa8e2c.png",
+    "static/media/Meesho2.png": "/static/media/Meesho2.7fa49170f8417e526570.png",
+    "static/media/Meesho1.png": "/static/media/Meesho1.d8b7793f46625e2f04f5.png",
     "static/media/img1.jpg": "/static/media/img1.6bb664014b5cb23c8c63.jpg",
     "static/media/revv1.png": "/static/media/revv1.f8a34f16df1f75c5ad53.png",
     "static/media/man2.jpg": "/static/media/man2.91e54addee2e972ab7dc.jpg",
-    "static/media/shine2.png": "/static/media/shine2.925a0580c13577b48da6.png",
     "static/media/revv2.png": "/static/media/revv2.52c8f2abaa0f7dc7b257.png",
     "static/media/aod2.png": "/static/media/aod2.8ce283d9723991dc23c3.png",
-    "static/media/Raj_Kumar_Sahu.pdf": "/static/media/Raj_Kumar_Sahu.e74b61371856e58c454c.pdf",
+    "static/media/Raj_Kumar_Sahu_Resume.pdf": "/static/media/Raj_Kumar_Sahu_Resume.9db1b918e88ed8d889ca.pdf",
     "static/media/chakra.png": "/static/media/chakra.7faa7025d019f1ad3b2b.png",
     "static/media/Raj.jpg": "/static/media/Raj.131e1fe01ecb1b25ea6e.jpg",
     "index.html": "/index.html",
-    "main.9c5dc39a.css.map": "/static/css/main.9c5dc39a.css.map",
-    "main.10c508b4.js.map": "/static/js/main.10c508b4.js.map"
+    "main.cfda5325.css.map": "/static/css/main.cfda5325.css.map",
+    "main.2104434e.js.map": "/static/js/main.2104434e.js.map"
   },
   "entrypoints": [
-    "static/css/main.9c5dc39a.css",
-    "static/js/main.10c508b4.js"
+    "static/css/main.cfda5325.css",
+    "static/js/main.2104434e.js"
   ]
 }
