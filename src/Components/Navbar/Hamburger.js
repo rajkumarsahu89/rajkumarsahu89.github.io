@@ -7,7 +7,7 @@ import {
 } from "@chakra-ui/react";
 import React from "react";
 import style from "./Navbar.module.css";
-import resume from "../imges/Raj_Kumar_Sahu.pdf"
+import resume from "../imges/Raj_Kumar_Sahu_Resume.pdf"
 
 export default function Hamburger({ isOpen, setOpen }) {
   const btnRef = React.useRef();

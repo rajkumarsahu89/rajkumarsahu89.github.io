@@ -3,7 +3,7 @@ import style from "./Name.module.css";
 import img from "../imges/Raj.jpg";
 import { DownloadIcon } from "@chakra-ui/icons";
 import Typewriter from "typewriter-effect";
-import resume from "../imges/Raj_Kumar_Sahu.pdf";
+import resume from "../imges/Raj_Kumar_Sahu_Resume.pdf";
 
 
 function Name() {

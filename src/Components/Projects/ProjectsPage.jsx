@@ -10,7 +10,7 @@ import {
 import img1 from "../imges/img1.jpg";
 import aod1 from "../imges/aod1.png";
 import revv1 from "../imges/revv1.png";
-import shine1 from "../imges/shine1.png";
+import Meesho1 from "../imges/Meesho1.png";
 import { LinkIcon } from "@chakra-ui/icons";
 import { FaGithub } from "react-icons/fa";
 import AOS from "aos";
@@ -23,6 +23,7 @@ function ProjectPage() {
   return (
     <Stack id="project" p={[2, 10]}>
       <SimpleGrid columns={[1, 1, 2, 2]} justifyContent={"space-between"}>
+
         <VStack
           claseeName="projectContainer"
           data-aos="fade-up"
@@ -79,6 +80,72 @@ function ProjectPage() {
               target={"_blank"}
               rel="noreferrer"
               href="https://adorama.vercel.app/"
+            >
+              {" "}
+              <button className={style.button}>
+                <LinkIcon bg={"transparent"} />
+                Live
+              </button>
+            </a>
+          </HStack>{" "}
+        </VStack>
+
+        <VStack
+          claseeName="projectContainer"
+          data-aos="fade-up"
+          data-aos-anchor-placement="center-bottom"
+          data-aos-duration="1000"
+          spacing={2}
+          p={[2, 5]}
+          borderRadius="25px"
+          boxShadow="rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px"
+        >
+          <Text fontSize="2xl" fontWeight="semibold">
+           Meesho.com
+          </Text>
+          <Box className="image-container3">
+            <Img src={Meesho1} alt="img" />
+          </Box>
+          <Text textAlign={"center"} width="80%" className={style.discription}>
+          An e-commerce website for ordering fashion products, clothing etc. and it is a social commerce platform that undertakes retail distribution, enabling small retail merchants to connect and sell their products effectively via social media channels. 
+          </Text>
+          <HStack>
+            <div className={style.techStack}>
+              
+              <img
+                src="https://spsanchore13.github.io/shantilal/static/media/mongodb.0781b723446e1f8a1734f7831a9c3313.svg"
+                alt="https://spsanchore13.github.io/shantilal/static/media/mongodb.0781b723446e1f8a1734f7831a9c3313.svg"
+              />
+              <img
+                src="https://w7.pngwing.com/pngs/925/447/png-transparent-express-js-node-js-javascript-mongodb-node-js-text-trademark-logo.png"
+                alt="https://w7.pngwing.com/pngs/925/447/png-transparent-express-js-node-js-javascript-mongodb-node-js-text-trademark-logo.png"
+              />
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png"
+                alt="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png"
+              />
+              <img
+                src="https://seeklogo.com/images/N/nodejs-logo-FBE122E377-seeklogo.com.png"
+                alt="https://seeklogo.com/images/N/nodejs-logo-FBE122E377-seeklogo.com.png"
+              />
+              <img src={chakra} alt={chakra} />
+            </div>
+          </HStack>
+          <HStack>
+            <a
+              target={"_blank"}
+              rel="noreferrer"
+              href="https://github.com/mhtbansal11/Meesho-fascino"
+            >
+              <button className={style.button}>
+                <FaGithub bg={"transparent"} />
+                Github
+              </button>
+            </a>
+            <a
+              target={"_blank"}
+              rel="noreferrer"
+              href="https://meesho-fascino.vercel.app/"
             >
               {" "}
               <button className={style.button}>
@@ -216,7 +283,7 @@ function ProjectPage() {
           </HStack>{" "}
         </VStack>
 
-        <VStack
+        {/* <VStack
           claseeName="projectContainer"
           data-aos="fade-up"
           data-aos-anchor-placement="center-bottom"
@@ -274,7 +341,9 @@ function ProjectPage() {
               </button>
             </a>
           </HStack>{" "}
-        </VStack>
+        </VStack> */}
+
+
       </SimpleGrid>
     </Stack>
   );
