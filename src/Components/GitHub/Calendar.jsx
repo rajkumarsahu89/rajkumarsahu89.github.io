@@ -43,6 +43,14 @@ function Calendar() {
           alt="stats"
           />
         </a>
+
+        <a href="https://github.com/rajkumarsahu89">
+          <img
+            align="center" id="github-top-langs"
+            src="https://github-readme-stats.vercel.app/api/top-langs/?username=rajkumarsahu89&theme=dark&layout=compact&langs_count=6&card_width=400&card_height=200"
+          alt="stats"
+          />
+        </a>
        
       </div>
     </div>
