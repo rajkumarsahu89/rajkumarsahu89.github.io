@@ -61,3 +61,31 @@
   opacity: 0;
 }
 
+.image-container5{   
+  background-image: url("../src/Components/imges/game2.png");
+  background-size: cover;
+}
+.image-container5 > img{
+  width:100%;
+  display:block;
+  transition: opacity 1s ease;
+}
+
+.image-container5:hover img{
+  opacity: 0;
+}
+
+.image-container6{   
+  background-image: url("../src/Components/imges/emp2.png");
+  background-size: cover;
+}
+.image-container6 > img{
+  width:100%;
+  display:block;
+  transition: opacity 1s ease;
+}
+
+.image-container6:hover img{
+  opacity: 0;
+}
+

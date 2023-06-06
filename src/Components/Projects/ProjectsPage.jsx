@@ -7,6 +7,8 @@ import {
   Text,
   VStack,
 } from "@chakra-ui/react";
+import emp1 from "../imges/emp1.png"
+import game1 from "../imges/game1.png"
 import img1 from "../imges/img1.jpg";
 import aod1 from "../imges/aod1.png";
 import revv1 from "../imges/revv1.png";
@@ -35,17 +37,17 @@ function ProjectPage() {
           boxShadow="rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px"
         >
           <Text fontSize="2xl" fontWeight="semibold">
-           Adorama.com
+            Adorama.com
           </Text>
           <Box className="image-container4">
             <Img src={aod1} alt="img" />
           </Box>
           <Text textAlign={"center"} width="80%" className={style.discription}>
-          Adorama is a Ecommerce website which provides DSLR cameras & accessories , 4K video gear, Musical instruments & equipment , VR, PC & next generation console gaming , and Home Electronics like the latest Smart Home devices. 
+            Adorama is a Ecommerce website which provides DSLR cameras & accessories , 4K video gear, Musical instruments & equipment , VR, PC & next generation console gaming , and Home Electronics like the latest Smart Home devices.
           </Text>
           <HStack>
             <div className={style.techStack}>
-              
+
               <img
                 src="https://spsanchore13.github.io/shantilal/static/media/mongodb.0781b723446e1f8a1734f7831a9c3313.svg"
                 alt="https://spsanchore13.github.io/shantilal/static/media/mongodb.0781b723446e1f8a1734f7831a9c3313.svg"
@@ -90,6 +92,7 @@ function ProjectPage() {
           </HStack>{" "}
         </VStack>
 
+
         <VStack
           claseeName="projectContainer"
           data-aos="fade-up"
@@ -101,17 +104,17 @@ function ProjectPage() {
           boxShadow="rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px"
         >
           <Text fontSize="2xl" fontWeight="semibold">
-           Meesho.com
+            Meesho.com
           </Text>
           <Box className="image-container3">
             <Img src={Meesho1} alt="img" />
           </Box>
           <Text textAlign={"center"} width="80%" className={style.discription}>
-          An e-commerce website for ordering fashion products, clothing etc. and it is a social commerce platform that undertakes retail distribution, enabling small retail merchants to connect and sell their products effectively via social media channels. 
+            An e-commerce website for ordering fashion products, clothing etc. and it is a social commerce platform that undertakes retail distribution, enabling small retail merchants to connect and sell their products effectively via social media channels.
           </Text>
           <HStack>
             <div className={style.techStack}>
-              
+
               <img
                 src="https://spsanchore13.github.io/shantilal/static/media/mongodb.0781b723446e1f8a1734f7831a9c3313.svg"
                 alt="https://spsanchore13.github.io/shantilal/static/media/mongodb.0781b723446e1f8a1734f7831a9c3313.svg"
@@ -156,6 +159,7 @@ function ProjectPage() {
           </HStack>{" "}
         </VStack>
 
+
         <VStack
           claseeName="projectContainer"
           data-aos="fade-up"
@@ -173,7 +177,7 @@ function ProjectPage() {
             <Img src={img1} alt="img" />
           </Box>
           <Text textAlign={"center"} width="80%" className={style.discription}>
-          Zara is one of the largest international fashion companies. It belongs to Inditex, one of the world's largest distribution groups.
+            Zara is one of the largest international fashion companies. It belongs to Inditex, one of the world's largest distribution groups.
           </Text>
           <HStack>
             <div className={style.techStack}>
@@ -222,6 +226,154 @@ function ProjectPage() {
           </HStack>
         </VStack>
 
+
+        <VStack
+          claseeName="projectContainer"
+          data-aos="fade-up"
+          data-aos-anchor-placement="center-bottom"
+          data-aos-duration="1000"
+          p={[2, 5]}
+          spacing={2}
+          borderRadius="25px"
+          boxShadow="rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px"
+        >
+          <Text align="left" fontSize="2xl" fontWeight="semibold">
+            21 Lucky Game🃏
+          </Text>
+          <Box className="image-container5">
+            <Img src={game1} alt="img" />
+          </Box>
+          <Text textAlign={"center"} width="80%" className={style.discription}>
+            21 Lucky Game is a real time full stack single player game build with the help of MERN Stack, also incorporating dynamic animation to create an immersive gaming experience.
+          </Text>
+          <HStack>
+            <div className={style.techStack}>
+              <img
+                src="https://spsanchore13.github.io/shantilal/static/media/mongodb.0781b723446e1f8a1734f7831a9c3313.svg"
+                alt="https://spsanchore13.github.io/shantilal/static/media/mongodb.0781b723446e1f8a1734f7831a9c3313.svg"
+              />
+              <img
+                src="https://w7.pngwing.com/pngs/925/447/png-transparent-express-js-node-js-javascript-mongodb-node-js-text-trademark-logo.png"
+                alt="https://w7.pngwing.com/pngs/925/447/png-transparent-express-js-node-js-javascript-mongodb-node-js-text-trademark-logo.png"
+              />
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png"
+                alt="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png"
+              />
+              <img
+                src="https://seeklogo.com/images/N/nodejs-logo-FBE122E377-seeklogo.com.png"
+                alt="https://seeklogo.com/images/N/nodejs-logo-FBE122E377-seeklogo.com.png"
+              />
+
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/768px-Typescript_logo_2020.svg.png?20221110153201"
+                alt="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/768px-Typescript_logo_2020.svg.png?20221110153201"
+              />
+
+
+              <img src={chakra} alt={chakra} />
+            </div>
+          </HStack>
+          <HStack>
+            <a
+              target={"_blank"}
+              rel="noreferrer"
+              href="https://github.com/pallavijainy/closed-minute-1314"
+            >
+              <button className={style.button}>
+                <FaGithub bg={"transparent"} />
+                Github
+              </button>
+            </a>
+
+            <a
+              target={"_blank"}
+              rel="noreferrer"
+              href="https://21-lucky-game.vercel.app/"
+            >
+              <button className={style.button}>
+                <LinkIcon bg={"transparent"} />
+                Live
+              </button>
+            </a>
+          </HStack>
+        </VStack>
+
+
+        <VStack
+          claseeName="projectContainer"
+          data-aos="fade-up"
+          data-aos-anchor-placement="center-bottom"
+          data-aos-duration="1000"
+          spacing={2}
+          p={[2, 5]}
+          borderRadius="25px"
+          boxShadow="rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px"
+        >
+          <Text fontSize="2xl" fontWeight="semibold">
+            Employee Management System
+          </Text>
+          <Box className="image-container6">
+            <Img src={emp1} alt="img" />
+          </Box>
+          <Text textAlign={"center"} width="80%" className={style.discription}>
+            Employee Management System is build by Full stack CRUD operation with the help of MERN stack. We can track every Employee details.
+          </Text>
+          <HStack>
+            <div className={style.techStack}>
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/512px-HTML5_logo_and_wordmark.svg.png"
+                alt="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/512px-HTML5_logo_and_wordmark.svg.png"
+              />
+              <img
+                src="https://portfolio-mrsagar105.vercel.app/images/csscolor.png"
+                alt="https://portfolio-mrsagar105.vercel.app/images/csscolor.png"
+              />
+              <img
+                src="https://spsanchore13.github.io/shantilal/static/media/mongodb.0781b723446e1f8a1734f7831a9c3313.svg"
+                alt="https://spsanchore13.github.io/shantilal/static/media/mongodb.0781b723446e1f8a1734f7831a9c3313.svg"
+              />
+              <img
+                src="https://w7.pngwing.com/pngs/925/447/png-transparent-express-js-node-js-javascript-mongodb-node-js-text-trademark-logo.png"
+                alt="https://w7.pngwing.com/pngs/925/447/png-transparent-express-js-node-js-javascript-mongodb-node-js-text-trademark-logo.png"
+              />
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png"
+                alt="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png"
+              />
+              <img
+                src="https://seeklogo.com/images/N/nodejs-logo-FBE122E377-seeklogo.com.png"
+                alt="https://seeklogo.com/images/N/nodejs-logo-FBE122E377-seeklogo.com.png"
+              />
+
+            </div>
+          </HStack>
+          <HStack>
+            <a
+              target={"_blank"}
+              rel="noreferrer"
+              href="https://github.com/rajkumarsahu89/Employee-Management-System"
+            >
+              <button className={style.button}>
+                <FaGithub bg={"transparent"} />
+                Github
+              </button>
+            </a>
+            <a
+              target={"_blank"}
+              rel="noreferrer"
+              href="https://employee-seven.vercel.app/"
+            >
+              {" "}
+              <button className={style.button}>
+                <LinkIcon bg={"transparent"} />
+                Live
+              </button>
+            </a>
+          </HStack>{" "}
+        </VStack>
+
+
         <VStack
           claseeName="projectContainer"
           data-aos="fade-up"
@@ -239,7 +391,7 @@ function ProjectPage() {
             <Img src={revv1} alt="img" />
           </Box>
           <Text textAlign={"center"} width="80%" className={style.discription}>
-          Revv Self Drive Car Rental in India is a reliable name in the industry as they aim to deliver the best experience to their customers..
+            Revv Self Drive Car Rental in India is a reliable name in the industry as they aim to deliver the best experience to their customers..
           </Text>
           <HStack>
             <div className={style.techStack}>
@@ -255,7 +407,7 @@ function ProjectPage() {
                 src="https://usefulangle.com/img/thumb/javascript.png"
                 alt="https://usefulangle.com/img/thumb/javascript.png"
               />
-             
+
             </div>
           </HStack>
           <HStack>
