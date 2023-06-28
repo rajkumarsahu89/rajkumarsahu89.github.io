@@ -89,3 +89,17 @@
   opacity: 0;
 }
 
+.image-container7{   
+  background-image: url("../src/Components/imges/book3.png");
+  background-size: cover;
+}
+.image-container7 > img{
+  width:100%;
+  display:block;
+  transition: opacity 1s ease;
+}
+
+.image-container7:hover img{
+  opacity: 0;
+}
+

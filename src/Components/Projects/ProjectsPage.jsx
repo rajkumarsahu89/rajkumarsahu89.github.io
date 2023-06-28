@@ -11,8 +11,10 @@ import emp1 from "../imges/emp1.png"
 import game1 from "../imges/game1.png"
 import img1 from "../imges/img1.jpg";
 import aod1 from "../imges/aod1.png";
+import book1 from "../imges/book1.png"
 import revv1 from "../imges/revv1.png";
 import Meesho1 from "../imges/Meesho1.png";
+import shine1 from "../imges/shine1.png"
 import { LinkIcon } from "@chakra-ui/icons";
 import { FaGithub } from "react-icons/fa";
 import AOS from "aos";
@@ -40,15 +42,22 @@ function ProjectPage() {
           <Text fontSize="2xl" fontWeight="semibold">
             Book Store
           </Text>
-          <Box className="image-container4">
-            <Img src={aod1} alt="img" />
+          <Box className="image-container7">
+            <Img src={book1} alt="img" />
           </Box>
           <Text textAlign={"center"} width="80%" className={style.discription}>
             Book store is an E-commerce web application related to Book store. Users can order book and the admin can manage all items and manage orders.
           </Text>
           <HStack>
             <div className={style.techStack}>
-
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/512px-HTML5_logo_and_wordmark.svg.png"
+                alt="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/512px-HTML5_logo_and_wordmark.svg.png"
+              />
+              <img
+                src="https://portfolio-mrsagar105.vercel.app/images/csscolor.png"
+                alt="https://portfolio-mrsagar105.vercel.app/images/csscolor.png"
+              />
               <img
                 src="https://spsanchore13.github.io/shantilal/static/media/mongodb.0781b723446e1f8a1734f7831a9c3313.svg"
                 alt="https://spsanchore13.github.io/shantilal/static/media/mongodb.0781b723446e1f8a1734f7831a9c3313.svg"
@@ -65,7 +74,11 @@ function ProjectPage() {
                 src="https://seeklogo.com/images/N/nodejs-logo-FBE122E377-seeklogo.com.png"
                 alt="https://seeklogo.com/images/N/nodejs-logo-FBE122E377-seeklogo.com.png"
               />
-              <img src={chakra} alt={chakra} />
+              <img
+                src="https://png.pngitem.com/pimgs/s/577-5779757_react-material-ui-logo-hd-png-download.png"
+                alt="https://png.pngitem.com/pimgs/s/577-5779757_react-material-ui-logo-hd-png-download.png"
+              />
+
             </div>
           </HStack>
           <HStack>
@@ -504,7 +517,7 @@ function ProjectPage() {
           </HStack>{" "}
         </VStack>
 
-        {/* <VStack
+        <VStack
           claseeName="projectContainer"
           data-aos="fade-up"
           data-aos-anchor-placement="center-bottom"
@@ -517,7 +530,7 @@ function ProjectPage() {
           <Text fontSize="2xl" fontWeight="semibold">
             Shine.com
           </Text>
-          <Box className="image-container3">
+          <Box className="image-container8">
             <Img src={shine1} alt="img" />
           </Box>
           <Text textAlign={"center"} width="80%" className={style.discription}>
@@ -562,7 +575,7 @@ function ProjectPage() {
               </button>
             </a>
           </HStack>{" "}
-        </VStack> */}
+        </VStack>
 
 
       </SimpleGrid>
