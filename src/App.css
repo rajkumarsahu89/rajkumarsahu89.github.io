@@ -103,3 +103,17 @@
   opacity: 0;
 }
 
+.image-container8{   
+  background-image: url("../src/Components/imges/shine2.png");
+  background-size: cover;
+}
+.image-container8 > img{
+  width:100%;
+  display:block;
+  transition: opacity 1s ease;
+}
+
+.image-container8:hover img{
+  opacity: 0;
+}
+
