@@ -26,6 +26,75 @@ function ProjectPage() {
     <Stack id="project" p={[2, 10]}>
       <SimpleGrid columns={[1, 1, 2, 2]} justifyContent={"space-between"}>
 
+
+        <VStack
+          claseeName="projectContainer"
+          data-aos="fade-up"
+          data-aos-anchor-placement="center-bottom"
+          data-aos-duration="1000"
+          spacing={2}
+          p={[2, 5]}
+          borderRadius="25px"
+          boxShadow="rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px"
+        >
+          <Text fontSize="2xl" fontWeight="semibold">
+            Book Store
+          </Text>
+          <Box className="image-container4">
+            <Img src={aod1} alt="img" />
+          </Box>
+          <Text textAlign={"center"} width="80%" className={style.discription}>
+            Book store is an E-commerce web application related to Book store. Users can order book and the admin can manage all items and manage orders.
+          </Text>
+          <HStack>
+            <div className={style.techStack}>
+
+              <img
+                src="https://spsanchore13.github.io/shantilal/static/media/mongodb.0781b723446e1f8a1734f7831a9c3313.svg"
+                alt="https://spsanchore13.github.io/shantilal/static/media/mongodb.0781b723446e1f8a1734f7831a9c3313.svg"
+              />
+              <img
+                src="https://w7.pngwing.com/pngs/925/447/png-transparent-express-js-node-js-javascript-mongodb-node-js-text-trademark-logo.png"
+                alt="https://w7.pngwing.com/pngs/925/447/png-transparent-express-js-node-js-javascript-mongodb-node-js-text-trademark-logo.png"
+              />
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png"
+                alt="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png"
+              />
+              <img
+                src="https://seeklogo.com/images/N/nodejs-logo-FBE122E377-seeklogo.com.png"
+                alt="https://seeklogo.com/images/N/nodejs-logo-FBE122E377-seeklogo.com.png"
+              />
+              <img src={chakra} alt={chakra} />
+            </div>
+          </HStack>
+          <HStack>
+            <a
+              target={"_blank"}
+              rel="noreferrer"
+              href="https://github.com/rajkumarsahu89/Furation_Bookstore"
+            >
+              <button className={style.button}>
+                <FaGithub bg={"transparent"} />
+                Github
+              </button>
+            </a>
+            <a
+              target={"_blank"}
+              rel="noreferrer"
+              href="https://book-store-rajkumarsahu89.vercel.app/"
+            >
+              {" "}
+              <button className={style.button}>
+                <LinkIcon bg={"transparent"} />
+                Live
+              </button>
+            </a>
+          </HStack>{" "}
+        </VStack>
+
+
+
         <VStack
           claseeName="projectContainer"
           data-aos="fade-up"
