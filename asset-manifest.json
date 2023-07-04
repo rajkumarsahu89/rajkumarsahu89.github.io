@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.5739ed35.css",
-    "main.js": "/static/js/main.eafb1484.js",
+    "main.js": "/static/js/main.1157bea4.js",
     "static/media/book1.png": "/static/media/book1.cdec247b04d4d98b1c8c.png",
     "static/media/game1.png": "/static/media/game1.5e9183636791837bf00f.png",
     "static/media/shine1.png": "/static/media/shine1.eaa126d6b80205407a41.png",
@@ -17,16 +17,16 @@
     "static/media/man2.jpg": "/static/media/man2.91e54addee2e972ab7dc.jpg",
     "static/media/shine2.png": "/static/media/shine2.925a0580c13577b48da6.png",
     "static/media/revv2.png": "/static/media/revv2.52c8f2abaa0f7dc7b257.png",
+    "static/media/Raj_Kumar_Sahu_Resume.pdf": "/static/media/Raj_Kumar_Sahu_Resume.cbf421d27a27cb079c03.pdf",
     "static/media/aod2.png": "/static/media/aod2.8ce283d9723991dc23c3.png",
-    "static/media/Raj_Kumar_Sahu_Resume.pdf": "/static/media/Raj_Kumar_Sahu_Resume.9db1b918e88ed8d889ca.pdf",
     "static/media/chakra.png": "/static/media/chakra.7faa7025d019f1ad3b2b.png",
     "static/media/Raj.jpg": "/static/media/Raj.131e1fe01ecb1b25ea6e.jpg",
     "index.html": "/index.html",
     "main.5739ed35.css.map": "/static/css/main.5739ed35.css.map",
-    "main.eafb1484.js.map": "/static/js/main.eafb1484.js.map"
+    "main.1157bea4.js.map": "/static/js/main.1157bea4.js.map"
   },
   "entrypoints": [
     "static/css/main.5739ed35.css",
-    "static/js/main.eafb1484.js"
+    "static/js/main.1157bea4.js"
   ]
 }
