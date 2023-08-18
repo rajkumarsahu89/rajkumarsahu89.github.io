@@ -15,7 +15,7 @@ function Coding() {
         <div>
           <div>
             <img
-              src="https://www.masaischool.com/img/hire-masai-grads/FindTalent/find-talent-1.svg"
+              src="https://www.masaischool.com/images/hire-masai-grads/FindTalent/find-talent-1.svg"
               alt="https://www.masaischool.com/img/hire-masai-grads/FindTalent/find-talent-1.svg"
             />
           </div>
@@ -30,7 +30,7 @@ function Coding() {
         <div>
           <div>
             <img
-              src="https://www.masaischool.com/img/hire-masai-grads/FindTalent/find-talent-2.svg"
+              src="https://www.masaischool.com/images/hire-masai-grads/FindTalent/find-talent-2.svg"
               alt="https://www.masaischool.com/img/hire-masai-grads/FindTalent/find-talent-2.svg"
             />
           </div>
@@ -45,7 +45,7 @@ function Coding() {
         <div>
           <div>
             <img
-              src="https://www.masaischool.com/img/hire-masai-grads/FindTalent/find-talent-3.svg"
+              src="https://www.masaischool.com/images/hire-masai-grads/FindTalent/find-talent-3.svg"
               alt="https://www.masaischool.com/img/hire-masai-grads/FindTalent/find-talent-3.svg"
             />
           </div>
@@ -60,7 +60,7 @@ function Coding() {
         <div>
           <div>
             <img
-              src="https://www.masaischool.com/img/hire-masai-grads/FindTalent/find-talent-4.svg"
+              src="https://www.masaischool.com/images/hire-masai-grads/FindTalent/find-talent-4.svg"
               alt="https://www.masaischool.com/img/hire-masai-grads/FindTalent/find-talent-4.svg"
             />
           </div>
@@ -75,7 +75,7 @@ function Coding() {
         <div>
           <div>
             <img
-              src="https://www.masaischool.com/img/hire-masai-grads/FindTalent/find-talent-5.svg"
+              src="https://www.masaischool.com/images/hire-masai-grads/FindTalent/find-talent-5.svg"
               alt="https://www.masaischool.com/img/hire-masai-grads/FindTalent/find-talent-5.svg"
             />
           </div>
@@ -89,7 +89,7 @@ function Coding() {
         <div>
           <div>
             <img
-              src="https://www.masaischool.com/img/hire-masai-grads/FindTalent/find-talent-6.svg"
+              src="https://www.masaischool.com/images/hire-masai-grads/FindTalent/find-talent-6.svg"
               alt="https://www.masaischool.com/img/hire-masai-grads/FindTalent/find-talent-6.svg"
             />
           </div>
